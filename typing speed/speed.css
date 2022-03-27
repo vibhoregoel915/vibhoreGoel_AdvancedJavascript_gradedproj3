@@ -1,0 +1,72 @@
+body{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 6, 88);
+}
+
+#heading {
+    font-weight: bolder;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: space-between;
+}
+
+.stats{
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#statistics {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.text {
+    background-color: beige;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textToType {
+    background-color: beige;
+    width: 600px;
+    height: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#inputText{
+    width: 600px;
+    box-sizing: border-box;
+}
+
+.matchingCharacter{
+    background-color: rgb(187, 231, 187);
+}
+
+.wrongCharacter{
+    background-color: rgb(230, 136, 136);
+}
+
+span {
+    white-space: pre-wrap;
+}
